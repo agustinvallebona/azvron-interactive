@@ -1,4 +1,5 @@
 html {
+    width: 100%;
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -28,6 +29,8 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
+    width: 100%
+    position: relative;
 }
 
 /* Header / Hero */
@@ -145,8 +148,8 @@ h1::after {
     content: '';
     position: absolute;
     top: -10%;
-    left: -20%;
-    width: 140%;
+    left: 0%;
+    width: 100%;
     height: 120%;
     background: linear-gradient(
         90deg, 
